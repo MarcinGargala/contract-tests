@@ -1,2 +1,8 @@
-# contract-tests
-This repo is meant for contract test POC with java and kotlin as identical examples
+# Contract test
+
+The goal of this project is to show how test communication between micro-services with Contract test.
+
+## Consumer driven contracts
+
+## Producer driven contracts
+
