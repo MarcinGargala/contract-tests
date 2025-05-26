@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.5</version>
+        <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>java-consumer-driven</artifactId>
+    <artifactId>java-producer-driven</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>java-consumer-driven</name>
-    <description>java-consumer-driven</description>
+    <name>java-producer-driven</name>
+    <description>java-producer-driven</description>
     <url/>
     <licenses>
         <license/>
@@ -27,18 +27,13 @@
         <url/>
     </scm>
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
 
         <dependency>
             <groupId>org.projectlombok</groupId>
