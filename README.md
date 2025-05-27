@@ -1,10 +1,11 @@
 # Contract test
 
-The goal of this project is to show how test communication between microservices with Contract test.
+The goal of this project is to show how to test communication between microservices using Contract test.
 
-## What are contract test?
+## Problem definition
 
-What kind of problem migration from monolith system into microservice based introduced?
+What kind of problem migration from monolithic system into microservice based introduced?
+<br>
 
 ```mermaid
 flowchart LR
@@ -20,6 +21,7 @@ flowchart LR
 
 
 ```
+<br>
 
 ```mermaid
 flowchart LR
@@ -32,10 +34,16 @@ flowchart LR
 ```
 
 External communication is new challenge - simple method invocation "createPayment(...)" now changed to "POST /payments"
-REST endpoint. Moreover, two teams can manage new microservices and have to cooperate to keep communication up to date.
-Teams have to establish rules based on which they will cooperate.
+REST endpoint. Moreover, two teams can manage new microservices and have to cooperate to keep system working!
+Teams have to establish rules on which they will cooperate.
 
-![](img/follow-rules.png)
+<br>
+<div style="text-align: center;">
+  <img src="img/follow-rules.png" alt="Description" width="581"/>
+</div>
+<br>
+
+
 
 ## Producer driven contracts
 
@@ -45,18 +53,13 @@ Teams have to establish rules based on which they will cooperate.
 
 ## Plan
 
-- Java and Kotlin example of Producer driven contracts
-  - java-producer-driven
-  - kotlin-producer-driven
-  - exchange between each other
-- Java and Kotlin example of Consumer driven contracts
+- OpenAPI specification project
+- Java and Kotlin example of Consumer driven contracts with Pact 
   - java-consumer-driven
   - kotlin-consumer-driven
   - exchange between each other
   - pact UI 
-- Kotlin real world example containing 
-  - product service
-  - users service
-  - order service
+  - kafka messages 
+  - rest 
 
 
