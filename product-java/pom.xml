@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>java-consumer-driven</artifactId>
+    <artifactId>product-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>java-consumer-driven</name>
     <description>java-consumer-driven</description>
